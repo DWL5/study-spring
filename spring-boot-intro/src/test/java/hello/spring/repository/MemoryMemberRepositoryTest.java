@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class MemoryMemberRepositoryTest {
 
-    MemberRepository repository = new MemoryMemberRepository();
+    MemoryMemberRepository repository = new MemoryMemberRepository();
 
     @AfterEach
     public void afterEach() {

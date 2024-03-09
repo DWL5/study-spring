@@ -5,25 +5,21 @@ import hello.spring.repository.MemberRepository;
 import hello.spring.repository.MemoryMemberRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Optional;
+@SpringBootTest
+@Transactional
+class MemberServiceIntergrationTest {
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class MemberServiceTest {
-
+    @Autowired
     MemberService memberService;
+
+    @Autowired
     MemberRepository repository;
-
-    @BeforeEach
-    public void beforeEach() {
-        repository = new MemoryMemberRepository();
-        memberService = new MemberService(repository);
-    }
-
     @Test
     void join() {
         //given
