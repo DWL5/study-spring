@@ -1,5 +1,6 @@
 package hello.spring;
 
+import hello.spring.aop.TimeTraceAop;
 import hello.spring.controller.MemberController;
 import hello.spring.repository.*;
 import hello.spring.service.MemberService;
@@ -29,6 +30,7 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
+
 
 /*    @Bean
     public MemberRepository memberRepository() {
