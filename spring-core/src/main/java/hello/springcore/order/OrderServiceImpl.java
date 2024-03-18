@@ -1,10 +1,10 @@
-package hello.springcode.order;
+package hello.springcore.order;
 
-import hello.springcode.discount.DiscountPolicy;
-import hello.springcode.discount.FixDiscountPolicy;
-import hello.springcode.member.Member;
-import hello.springcode.member.MemberRepository;
-import hello.springcode.member.MemoryMemberRepository;
+import hello.springcore.discount.DiscountPolicy;
+import hello.springcore.discount.FixDiscountPolicy;
+import hello.springcore.member.Member;
+import hello.springcore.member.MemberRepository;
+import hello.springcore.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService{
 

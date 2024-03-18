@@ -1,12 +1,12 @@
-package hello.springcode;
+package hello.springcore;
 
-import hello.springcode.member.Grade;
-import hello.springcode.member.Member;
-import hello.springcode.member.MemberService;
-import hello.springcode.member.MemberServiceImpl;
-import hello.springcode.order.Order;
-import hello.springcode.order.OrderService;
-import hello.springcode.order.OrderServiceImpl;
+import hello.springcore.member.Grade;
+import hello.springcore.member.Member;
+import hello.springcore.member.MemberService;
+import hello.springcore.member.MemberServiceImpl;
+import hello.springcore.order.Order;
+import hello.springcore.order.OrderService;
+import hello.springcore.order.OrderServiceImpl;
 
 public class OrderApp {
 

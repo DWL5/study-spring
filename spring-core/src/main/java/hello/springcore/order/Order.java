@@ -1,4 +1,4 @@
-package hello.springcode.order;
+package hello.springcore.order;
 
 public class Order {
 

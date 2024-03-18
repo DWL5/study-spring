@@ -1,10 +1,9 @@
-package hello.springcode;
+package hello.springcore;
 
-import hello.springcode.member.Grade;
-import hello.springcode.member.Member;
-import hello.springcode.member.MemberService;
-import hello.springcode.member.MemberServiceImpl;
-import hello.springcode.member.*;
+import hello.springcore.member.Grade;
+import hello.springcore.member.Member;
+import hello.springcore.member.MemberService;
+import hello.springcore.member.MemberServiceImpl;
 
 public class MemberApp {
 

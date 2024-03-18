@@ -1,4 +1,4 @@
-package hello.springcode.member;
+package hello.springcore.member;
 
 import java.util.HashMap;
 import java.util.Map;

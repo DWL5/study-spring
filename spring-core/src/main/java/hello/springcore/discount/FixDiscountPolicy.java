@@ -1,7 +1,7 @@
-package hello.springcode.discount;
+package hello.springcore.discount;
 
-import hello.springcode.member.Grade;
-import hello.springcode.member.Member;
+import hello.springcore.member.Grade;
+import hello.springcore.member.Member;
 
 public class FixDiscountPolicy implements DiscountPolicy {
 

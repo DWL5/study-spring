@@ -1,6 +1,6 @@
-package hello.springcode.discount;
+package hello.springcore.discount;
 
-import hello.springcode.member.Member;
+import hello.springcore.member.Member;
 
 public interface DiscountPolicy {
 
